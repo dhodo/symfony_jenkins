@@ -5,7 +5,7 @@ default:
               env: "test"
               debug: true
       Behat\MinkExtension:
-          base_url: http://localhost/symfony_jenkins/web/app_test.php
+          base_url: http://localhost/symfony_jenkins/web/app_dev.php
           browser_name: chrome
           javascript_session: selenium2
           show_auto: true
