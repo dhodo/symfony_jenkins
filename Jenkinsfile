@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'uname -r'
+                sh 'cd /srv/http/symfony_jenkins && behat'
             }
         }
         stage('Test') {
