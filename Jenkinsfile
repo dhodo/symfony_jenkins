@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cd /srv/http/symfony_jenkins && ls'
+                sh 'cd /srv/http/safarigay && ls'
             }
         }
         stage('Test') {
