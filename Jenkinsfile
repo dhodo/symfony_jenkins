@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'touch TESTPIPE'
+                sh 'sudo /touch TESTPIPEtxt'
             }
         }
     }
