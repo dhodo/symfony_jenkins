@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'php --version'
+                sh 'uname -r'
             }
         }
         stage('Test') {
