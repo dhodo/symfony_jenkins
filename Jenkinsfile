@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cd /srv/http/symfony_jenkins && bin/behat --config app/config/behat.yml --suite=app'
+                sh "ssh p 2222 dhodo@90.75.148.16 pwd"
             }
         }
         stage('Test') {
