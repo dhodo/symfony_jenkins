@@ -41,6 +41,16 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-browserkit-driver" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-extension" />
+      <path value="$PROJECT_DIR$/vendor/behat/symfony2-extension" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-selenium2-driver" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/instaclick/php-webdriver" />
+      <path value="$PROJECT_DIR$/vendor/behat/behat" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />

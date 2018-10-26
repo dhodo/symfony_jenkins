@@ -1,0 +1,26 @@
+default:
+    extensions:
+      Behat\Symfony2Extension:
+          kernel:
+              env: "test"
+              debug: true
+      Behat\MinkExtension:
+          base_url: http://localhost/symfony_jenkins/web/app_test.php
+          browser_name: chrome
+          javascript_session: selenium2
+          show_auto: true
+          show_cmd: open -a Google\ Chrome %s
+          sessions:
+              default:
+                  symfony2: ~
+              selenium2:
+                  selenium2: ~
+    suites:
+        app:
+          type: symfony_bundle
+          bundle: AppBundle
+          mink_session: selenium2
+          contexts:
+              - AppBundle\Features\Bootstrap\FeatureContext:
+                  container: '@service_container'
+                  entityManager: "@doctrine.orm.default_entity_manager"
