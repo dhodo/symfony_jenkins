@@ -6,7 +6,7 @@ default:
               debug: true
       Behat\MinkExtension:
           base_url: http://localhost/symfony_jenkins/web/app_dev.php
-          browser_name: chrome
+          browser_name: firefox
           javascript_session: selenium2
           show_auto: true
           show_cmd: google-chrome
@@ -15,7 +15,7 @@ default:
                   symfony2: ~
               selenium2:
                   selenium2:
-                      browser: chrome
+                      browser: firefox
                       capabilities:
                           chrome:
                               switches:
