@@ -9,7 +9,7 @@ default:
           browser_name: chrome
           javascript_session: selenium2
           show_auto: true
-          show_cmd: open -a Google\ Chrome %s
+          show_cmd: google-chrome
           sessions:
               default:
                   symfony2: ~
