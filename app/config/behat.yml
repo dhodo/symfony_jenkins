@@ -9,7 +9,7 @@ default:
           browser_name: firefox
           javascript_session: selenium2
           show_auto: true
-          show_cmd: google-chrome
+          show_cmd: firefox
           sessions:
               default:
                   symfony2: ~
