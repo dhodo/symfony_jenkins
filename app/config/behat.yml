@@ -14,7 +14,15 @@ default:
               default:
                   symfony2: ~
               selenium2:
-                  selenium2: ~
+                  selenium2:
+                      browser: chrome
+                      capabilities:
+                          chrome:
+                              switches:
+                                  - "--headless"
+                                  - "--disable-gpu"
+                                  - "--window-size=1920,1080"
+                                  - "--no-sandbox"
     suites:
         app:
           type: symfony_bundle
